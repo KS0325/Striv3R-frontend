@@ -1,0 +1,230 @@
+.Home {
+    background-image: url("../../src/Liftup.png");
+    background-size: 100%;
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+}
+
+.Med {
+    background-image: url("../../src/images/lift_up_2.png");
+    background-size: 100%;
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    padding-top:35vh;
+}
+
+.med-heading {
+    font-family: Reenie Beanie;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.StrivText {
+    left: calc(50% - 347px / 2 + 1px);
+    top: calc(50% - 156px / 2 - 216px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #2AF509;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.StrivWel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.StrivWelPar {
+    left: 19px;
+    top: 335px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.strivbut {
+    background: #2AF509;
+    color: #0B0A0A;
+    padding: 0.5rem 2.5rem;
+}
+
+.bg-dark-auth {
+    background-color: black;
+    height: 100%;
+}
+
+.margin-top-home {
+    margin-top: 10rem;
+}
+
+.striv3-nav-bannar {
+    margin-left: 4rem;
+    font-weight: 800;
+}
+
+.logout-button{
+    margin-right: 2rem;
+}
+
+.twitter-icon{
+    height: 1rem;
+    width: 1rem;
+}
+
+.icon-social{
+    margin-top: 1rem;
+    margin-left: 39.5rem;
+}
+
+.icon-social-one{
+    margin-left: 3rem;
+}
+
+.plans-meditation-button{
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+    font-weight: 600;
+}
+
+.plans-striv3-text-color{
+    color: #2AF509;
+}
+
+.plan-how-long{
+    margin-left: 11px;
+}
+
+.plan-input-box{
+    width: 30px;
+    height: 30px;
+    background-color: #E5E5E5;
+}
+
+.plan-input-box:focus{
+    border-color: #E5E5E5;
+}
+
+.plan-text-area-class{
+    background-color: #E5E5E5;
+    width: 300px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.user-cus-div {
+    background-color: #E5E5E5;
+    border-top: solid thin black;
+}
+
+.user-cus-div-border {
+    
+    border-bottom: solid thin #E5E5E5;
+}
+
+.t-colour {
+    color: #2AF509;
+}
+
+@media only screen and (max-width: 500px) {
+    .mt-8 {
+        margin-top: 2.0rem;
+    }
+
+    .striv3-nav-bannar {
+        margin-left: 0.5rem;
+    }
+
+    .logout-button{
+        margin-right: 0.5rem;
+    }
+
+    .icon-social{
+        margin-top: 1rem;
+        margin-left: 8.2rem;
+    }
+
+    .icon-social-one{
+        margin-left: 2rem;
+    }
+
+}
+
+/*@media only screen and (max-width: 450px) {*/
+/*    .icon-social{*/
+/*        margin-top: 1rem;*/
+/*        margin-left: 6.6rem;*/
+/*    }*/
+/*}*/
+
+@media only screen and (max-width: 400px) {
+    .icon-social{
+        margin-top: 1rem;
+        margin-left: 5.2rem;
+    }
+}
+
+.w-30 {
+    width: 35%;
+}
+
+.h-30 {
+    height: 35%;
+}
+
+.page-not-found{
+    text-align: center;
+    margin-top: 10rem;
+    color: red;
+}
+
+.default-profile-pic{
+    border-radius: 3px;
+}
+
+.nav-bar-brand{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.get-started{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.strivbuttwo{
+    background: #2AF509;
+    color: #0B0A0A;
+    padding: 0.5rem 3.2rem;
+}
